@@ -1,8 +1,7 @@
 # CogniCare AI — Listen. Understand. Prevent.
-Create a voice-based AI app that listens to short speech tests, analyzes speech + language patterns, and predicts early Alzheimer’s risk (Low / Medium / High).
+Create a voice-based AI app that listens to short speech tests, analyzes speech + language patterns, and predicts early Alzheimer’s risk (Low/Medium/High).
 
 # What It Does (In Simple Steps)
-
 User presses Start Test → speaks into mic.<br>
 App records voice (15–30 sec).
 
@@ -14,14 +13,14 @@ Simple ML model predicts cognitive risk level.<br>
 
 Result appears:
 
-Risk: 🟢 Low / 🟡 Moderate / 🔴 High<br>
+Risk: 🟢 Low /🟡 Moderate /🔴 High<br>
 
-Why: “Long pauses” / “Low word variety”<br>
+Why: “Long pauses”/“Low word variety”<br>
 
 Recommendation: “Retest or consult doctor.”<br>
 
 # Tech Stack (Fast to Build)
-Layer	Tools<br>
+Layer Tools<br>
 Frontend	Streamlit (UI + mic input)<br>
 Backend	Flask / FastAPI<br>
 Speech-to-Text	Whisper (or Vosk for offline)<br>

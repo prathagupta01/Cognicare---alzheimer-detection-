@@ -3,68 +3,67 @@ Create a voice-based AI app that listens to short speech tests, analyzes speech 
 
 # What It Does (In Simple Steps)
 
-User presses Start Test → speaks into mic.
+User presses Start Test → speaks into mic.<br>
 App records voice (15–30 sec).
 
 AI extracts:
 
-Speech features: pauses, pitch, fluency
-Text features: word richness, coherence
-Simple ML model predicts cognitive risk level.
+Speech features: pauses, pitch, fluency<br>
+Text features: word richness, coherence<br>
+Simple ML model predicts cognitive risk level.<br>
 
 Result appears:
 
-Risk: 🟢 Low / 🟡 Moderate / 🔴 High
+Risk: 🟢 Low / 🟡 Moderate / 🔴 High<br>
 
-Why: “Long pauses” / “Low word variety”
+Why: “Long pauses” / “Low word variety”<br>
 
-Recommendation: “Retest or consult doctor.”
+Recommendation: “Retest or consult doctor.”<br>
 
 # Tech Stack (Fast to Build)
-Layer	Tools
-Frontend	Streamlit (UI + mic input)
-Backend	Flask / FastAPI
-Speech-to-Text	Whisper (or Vosk for offline)
-Audio Features	Librosa
-Language Features	DistilBERT
-ML Model	Scikit-learn (Random Forest)
-Database (Optional)	SQLite
-Hosting	Streamlit Cloud / Render
-🖥️ UI Plan
+Layer	Tools<br>
+Frontend	Streamlit (UI + mic input)<br>
+Backend	Flask / FastAPI<br>
+Speech-to-Text	Whisper (or Vosk for offline)<br>
+Audio Features	Librosa<br>
+Language Features	DistilBERT<br>
+ML Model	Scikit-learn (Random Forest)<br>
+Database (Optional)	SQLite<br>
+Hosting	Streamlit Cloud / Render<br>
 
-Clean blue–violet gradient background
+ 
+## UI Plan
 
-Big microphone button (“Start Test”)
-Progress bar during recording
-Result card shows risk & explanation
-Icons for AI Brain, Voice, Report
-Clear disclaimer: “Screening tool, not diagnosis.”
+Clean blue–violet gradient background<br>
+Big microphone button (“Start Test”)<br>
+Progress bar during recording<br>
+Result card shows risk & explanation<br>
+Icons for AI Brain, Voice, Report<br>
+Clear disclaimer: “Screening tool, not diagnosis.”<br>
 
 # Architecture Flow
 
-🎙️ Voice → 🧠 Whisper (STT) → 🎼 Librosa + DistilBERT (features) → 📊 ML model → 💡 Result Dashboard
-🚀 MVP in 1 Hour
-Streamlit page + mic input (10 min)
-Whisper STT + mock features (15 min)
-Simple rule/ML model (15 min)
-Result UI with color-coded risk (15 min)
-Test with sample audio & finalize (5 min)
+🎙️ Voice → 🧠 Whisper (STT) → 🎼 Librosa + DistilBERT (features) → 📊 ML model → 💡 Result Dashboard<br>
+🚀 MVP in 1 Hour<br>
+Streamlit page + mic input (10 min)<br>
+Whisper STT + mock features (15 min)<br>
+Simple rule/ML model (15 min)<br>
+Result UI with color-coded risk (15 min)<br>
+Test with sample audio & finalize (5 min)<br>
 
 # Unique Selling Points (USP)
 
-✅ Non-invasive (no scans)
-✅ Works offline / low-cost
-✅ Multilingual (English, Hindi)
-✅ Explainable results (why the score)
-✅ Real-time demo-ready
+✅ Non-invasive (no scans)<br>
+✅ Works offline / low-cost<br>
+✅ Multilingual (English, Hindi)<br>
+✅ Explainable results (why the score)<br>
+✅ Real-time demo-ready<br>
 
 # Social Impact
 
-Detects Alzheimer’s early in rural India
-
-Can be used by families or clinics
-
-Supports doctors with digital pre-screening
+Detects Alzheimer’s early in rural India<br>
+Can be used by families or clinics<Br>
+Supports doctors with digital pre-screening<br>
 
 # Summary
 

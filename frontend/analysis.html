@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CogniCare - Take the Test</title>
+  <link rel="stylesheet" href="test.css" />
+  <script defer src="test.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="styler.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">CogniCare</div>
+    <ul class="nav-links">
+      <li><a href="index.html"><i class="fa fa-home"></i> Home</a></li>
+      <li><a href="#"><i class="fa fa-info-circle"></i> About</a></li>
+      <li><a href="#"><i class="fa fa-envelope"></i> Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Test Section -->
+  <section class="test-section">
+    <h1 class="test-title">Take the Test</h1>
+    <div class="test-container">
+      <div class="test-image">
+        <img src="https://ichef.bbci.co.uk/news/800/cpsprodpb/13E17/production/_114913418_cookietheft.jpg.webp" alt="Cookie Jar Test" />
+      </div>
+      <div class="test-instructions">
+        <h3>1. Look at the image</h3>
+        <p>2. Hit 'Start' button before you start speaking.</p>
+        <p>3. Describe what you see.</p>
+
+        <div class="timer">
+          <span id="timer">0:00:00:00</span>
+        </div>
+
+        <div class="buttons">
+          <button id="startBtn">START</button>
+          <button id="submitBtn">SUBMIT</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="task.js" crossorigin="anonymous"></script>
+</body>
+</html>
